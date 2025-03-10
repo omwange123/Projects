@@ -1,0 +1,253 @@
+*{
+margin:0%;
+padding:0%;
+box-sizing:border-box;
+font-family: 'Poppins';
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    color: white;
+    position: fixed;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+}
+.fackhed{
+    height: 80px;
+    width: 100%;
+}
+.hed a{
+    color: rgba(255, 106, 0, 0.879);
+    font-size: 25px;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+.hed a:hover{
+    color: orange;
+    text-shadow: 0 0 25px orangered,
+                  0 0 25px orangered;
+    transform: scale(1.5);
+}
+
+.hed span{
+    color: white;
+}
+.nav-content{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    letter-spacing: 0.8px;
+}
+#a2{
+    color: rgba(255, 106, 0, 0.879);
+    border-bottom: solid 2px rgba(255, 106, 0, 0.879);
+}
+
+.a1:hover{
+
+    color: rgba(255, 106, 0, 0.879);
+    border-bottom: solid 2px rgba(255, 106, 0, 0.879);
+}
+
+.conus{
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px;
+    width: 140px;
+    border-radius: 9px;
+}
+.conus:hover{
+    color: white;
+    background-color: rgba(255, 106, 0, 0.879);
+}
+
+.conus a:hover{
+    text-shadow: 0 0 25px orangered,
+                  0 0 25px orangered;
+    transform: scale(1.5);
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 700px;
+}
+.box1{
+    height: 600px;
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+}
+.main2{
+    height: 280px;
+    margin-left:80px;
+    padding-left: 50px;
+}
+.m{
+    line-height: 1;
+    font-size: 25px;
+    font-weight: 2000;
+}
+
+.main2 p{
+    margin-top: 20px;
+}
+.experience{
+    margin-top: 20px;
+    /* background-color: bisque; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.g1{
+    background-color: orangered;
+     width: 100px;
+    color: white;
+     height: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 8px;
+     border: solid 2px black;
+}
+#id2{
+    background-color: black;
+}
+
+#id2:hover{
+    color: black;
+    background-color: white;
+}
+#id1{
+    margin-left: 80px;
+    width: 130px;
+}
+#id1:hover{
+    color: orangered;
+    background-color: white;
+    border: solid 2px orangered;
+
+}
+.box2{
+    height: 600px;
+    width: 40%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2-main{
+    background-image: url("omdada.jpg");
+    background-size: cover;
+    height: 90%;
+    width: 60%;
+    border-radius: 100%;
+}
+
+.About{
+    height: 780px;
+    width: 100%;
+    /* background-color: black; */
+}
+.aboutheader{
+    height: 80px;
+    background-color: black;
+}
+.frontend{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    background-color: black;
+}
+.image{
+    height: 600px;
+    width: 40%;
+    /* background-color: azure; */
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainimage{
+          background-image: url("omdada.jpg");
+          background-size: cover;
+          height: 90%;
+          width: 60%;
+          border-radius: 100%;
+          box-shadow: 0px 0px 15px 5px orangered;
+}
+.fromtted{
+    height: 600px;
+    width: 45%;
+    color: white;
+    /* background-color: blanchedalmond; */
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.developer1{
+    height: 250px;
+    /* line-height: 10px; */
+    /* background-color: aquamarine; */
+          
+}
+.aboutme{
+    line-height: 1.4;
+    letter-spacing: 1.4px;
+    font-size: 25px;
+    font-weight: 2000;
+}
+#exper:hover{
+    background-color: white;
+    color: orangered;
+}
+.contact-me{
+    height: 700px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.me1{
+    /* background-color: rgb(31, 211, 151); */
+    height: 500px;
+    width: 40%;
+}
+.mmm2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 900;
+   font-size: 20px;
+   margin-bottom: 10px;
+}
+.mmm2 span{
+    color: orangered;
+}
+
+.me2 input,textarea{
+    width: 100%;
+    margin-top: 25px;
+    height: 50px;
+    border-radius: 6px;
+    padding-left: 20px;
+}
+textarea{
+    height: 200px;
+}
