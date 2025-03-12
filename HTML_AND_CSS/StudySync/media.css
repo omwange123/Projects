@@ -1,0 +1,59 @@
+@media only screen and (min-width:200px) and (max-width:760px) {
+    .header-midel{
+        display: none;
+    }
+    .header-right{
+        display: none;
+    }
+    .menu{
+       display: block;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        gap: 2rem;
+    }
+   .section-label{
+       text-align: center;
+        width: 100%;
+    }
+    .left-banner{
+        width: 100%;
+    }
+    .section-label h1{
+        width: 100%;
+        font-size: 2.4rem;
+        padding: 20px 0px;
+        /* margin: 0px 20px; */
+        color: #333333;
+    } 
+    .section-label p{
+        width: 100%;
+        font-size: 1.5rem;
+        padding: 0px;
+        color: #333333;
+    }
+    .img-container{
+        margin-left: 4px;
+        height: 51vh;
+        width: 48vw;
+    }
+    .section-logo{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .personalized{
+          display: flex;   
+          flex-direction: column;
+          gap: 1;
+          margin: 30px;
+    }
+    .comment-section{
+        flex-wrap: wrap;
+    }
+    .comment{
+        margin: 0px 30px;
+    }
+}
